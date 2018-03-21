@@ -1,4 +1,4 @@
-<?php   namespace Larareko\Rekognition;
+<?php   namespace MichaelJWright\Rekognition;
 
 use Aws\Rekognition\RekognitionClient;
 use Aws\S3\S3Client;

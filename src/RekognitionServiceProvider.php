@@ -1,6 +1,6 @@
 <?php
 
-namespace Larareko\Rekognition;
+namespace MichaelJWright\Rekognition;
 
 use Illuminate\Support\ServiceProvider;
 

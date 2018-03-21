@@ -1,4 +1,4 @@
-# larareko/aws-rekognition
+# fork of larareko/aws-rekognition
 
 A Laravel package/facade for the Rekognition API PHP SDK.
 
@@ -16,7 +16,7 @@ Create an account at [AWS](https://aws.amazon.com/console/) and take note of you
 
 In your terminal application move to the root directory of your laravel project using the cd command and require the project as a dependency using composer.
 
-composer require larareko/aws-rekognition
+composer require michaeljwright/aws-rekognition
 
 This will add the following lines to your composer.json and download the project and its dependencies to your projects ./vendor directory:
 
@@ -25,7 +25,7 @@ This will add the following lines to your composer.json and download the project
 
 ./composer.json
 {
-    "name": "larareko/larareko-demo",
+    "name": "michaeljwright/larareko-demo",
     "description": "A dummy project used to test the Laravel Larareko (AWS Rekognition) Facade.",
 
     // ...
@@ -33,7 +33,7 @@ This will add the following lines to your composer.json and download the project
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "larareko/aws-rekognition": "0.1*",
+        "michaeljwright/aws-rekognition": "0.1*",
         // ...
     },
 
@@ -60,7 +60,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Larareko\Rekognition\RekognitionServiceProvider::class, // [a]
+        MichaelJWright\Rekognition\RekognitionServiceProvider::class, // [a]
 
         /*
          * Application Service Providers...
@@ -81,7 +81,7 @@ return [
 
         // ...
 
-        'Rekognition' => 'Larareko\Rekognition\RekognitionFacade', // [b]
+        'Rekognition' => 'MichaelJWright\Rekognition\RekognitionFacade', // [b]
         'Hash' => Illuminate\Support\Facades\Hash::class,
 
         // ...

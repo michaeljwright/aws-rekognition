@@ -1,5 +1,5 @@
 {
-    "name": "larareko/aws-rekognition",
+    "name": "michaeljwright/aws-rekognition",
     "description": "A Laravel package for the AWS Rekognition",
     "require-dev": {
         "phpunit/phpunit": "~5.7",
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Larareko\\Rekognition\\": "src/"
+            "MichaelJWright\\Rekognition\\": "src/"
         }
     }
 }
